@@ -1,0 +1,230 @@
+.content {
+    margin: 0;
+    margin-bottom: 30px;
+}
+ 
+a {
+    text-decoration: none;
+    color: #252525;
+}
+
+header {
+    background-color: rgb(0, 106, 195);
+    height: 80px;
+    /*border-bottom: 5px solid rgb(255, 186, 0);*/
+    padding: 10px;
+}
+ 
+button, input[type='button'], input[type='submit'] {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 216px;
+    height: 45px;
+    background-color: #FEDF01;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 24px;
+    color: #252525;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover, input[type='button']:hover, input[type='submit']:hover {
+    background-color: rgb(253, 207, 1);
+}
+
+#search-availability {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+input {
+    font-family: 'Roboto', sans-serif;
+    color: #252525;
+    width: 350px;
+    height: 26px;
+    margin: 7px 7px 7px 7px;
+    outline: none;
+    padding-top: 5px;
+    padding-left: 14px;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid #6F6F6F;
+}
+
+table {
+    margin: 0 auto;
+}
+
+select {
+    font-family: 'Roboto', sans-serif;
+    color: #252525;
+    width: 370px;
+    height: 37px;
+    margin: 7px 7px 7px 7px;
+    outline: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 14px;
+    font-size: 16px;
+    line-height: 24px;
+
+    -webkit-appearance: none;
+    border-radius: 0;
+    background-color: white;
+    border: 1px solid #6F6F6F;
+}
+
+.booking-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 36px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.logo-container {
+    float: left;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.title {
+    color: rgb(253, 254, 255);
+    margin-left: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 17px;
+}
+
+.title-container {
+    position: relative;
+    width: 600px;
+    height: 55px;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.header-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 42px;
+    color: #444444;
+    color: rgb(0, 106, 199);
+    margin-left: 172px;
+    margin-top: 15px;
+}
+
+.intro {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #252525;
+    width: 650px;
+    margin: 0 auto;
+}
+ 
+.logo-container {
+    float: left;
+}
+ 
+.h1-container {
+    position: relative;
+    width: 600px;
+    height: 55px;
+    padding: 10px;
+    margin-left: 80px;
+    border-left: 2px solid rgb(253,254, 255);
+}
+
+#booking-inquiry {
+    text-align: center;
+    margin: 0 10% 20px 10%;
+    font-family: 'Roboto', sans-serif;
+}
+
+#timeslot_table {
+    margin: 20px 20% 0 20%;
+    font-family: 'Roboto', sans-serif;
+    height: 218px;
+    overflow-y: auto;
+    text-align: center;
+}
+
+.time {
+
+    color:#252525;
+    width: 20%
+}
+
+.available {
+    color: rgb(0, 106, 195);
+    width: 77%;
+}
+
+table {
+    border-collapse: collapse;
+    
+}
+
+td {
+    padding: 10px;
+    border-collapse: collapse;
+    border: 1px solid rgb(199, 196, 196);
+    background-color: rgb(245, 248 ,249);
+}
+
+.booking-table td{
+    padding: 5px;
+    border: none;
+    background-color: white;
+}
+
+.confirmation-message {
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    font-weight: 100;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    line-height: 42px;
+    color: #444444;
+    margin-top: 15px;
+}
+
+#confirmation-cancel {
+    width: 300px;
+}
+
+.covid-updates {
+    display: flex;
+    padding: 5px;
+    border-width: 4px 2px 2px 2px;
+    border-style: solid;
+    border-color: #B91A0E #6F6F6F #6F6F6F #6F6F6F;
+}
+
+.covid-text {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 15px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #252525;
+}
+
+.alert-icon {
+     margin-left: 25px;
+    }
